@@ -7,6 +7,7 @@ https://github.com/Priyanshu-bit/Mxpertz_frontend
 
 npm i
 
-3. start the server 
+3. start the server
+ 
 npm start
 
