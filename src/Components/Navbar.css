@@ -1,0 +1,151 @@
+.header-text {
+ 
+  margin-left: 30px;
+}
+
+.header-text1 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.header-text2 {
+  margin-right: 50px;
+
+}
+nav {
+  background-color: #fffefe;
+  color: #020202;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding: 10px 20px;
+  margin-bottom: 0px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin-left:40%;
+  padding: 0;
+  text-align: right;
+}
+
+
+li {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 20px; 
+}
+
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #ffd700;
+}
+.rest{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content {
+  text-align: center; 
+
+}
+
+
+.content img {
+  max-width: 100%;
+  height: 550px;
+  width: 100%;
+ z-index:-1 ;
+
+ border: 1px solid  black; 
+  box-sizing: border-box;
+}
+
+
+
+.button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.view-menu-button{
+  background-color: rgba(0, 123, 255, 0);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 16px;
+  padding: 10px; 
+  border: 2px solid #323030; 
+  box-sizing: border-box;
+  text-align: center;
+  width: 150px;
+  box-shadow: #5b5959;
+}
+.reservation-button {
+  background-color: rgba(202, 135, 41, 0.888);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 16px;
+  margin-top: 10%;
+  text-align: center;
+  width: 150px;
+  padding: 10px; 
+  border: 2px solid  black; 
+  box-sizing: border-box;
+}
+
+.centered-text {
+  color: white;
+}
+.home-text {
+  color: white;
+}
+
+p {
+  color: azure;
+}
+
+
+.view-menu-button:hover,
+.reservation-button:hover {
+  background-color: #0056b3;
+}
+.textbox-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; 
+}
+
+.centered-text {
+  font-size: 24px; 
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.cart-icon {
+  margin-left: 20px;
+}
+
+.cart-icon img {
+  max-height: 21px;
+  vertical-align: middle;
+}
+
