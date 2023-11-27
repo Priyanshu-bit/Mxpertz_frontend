@@ -12,45 +12,45 @@ const Testimonials = () => {
           <div className="rating">
             <span>★★★★★</span>
           </div>
-          <h3>"A Great Find"</h3>
+          <h3>"A Great Find"</h3><br></br>
           <p class='news'>
             "This is the first testimonial. Lorem ipsum dolor sit amet,
             consectetur adipiscing elit. 
             Quisque non justo ut mi dictum fringilla."
-          </p>
+          </p><br></br>
           <h4>Divi</h4>
         </div>
         <div className="testimonial">
           <div className="rating">
             <span className='star'>★★★★★</span>
           </div>
-          <h3>"Fabulous food & flawless service"</h3>
+          <h3>"Fabulous food & flawless service"</h3><br></br>
           <p class='news'>
             "The second testimonial. Lorem ipsum dolor sit amet, consectetur
             adipiscing elit. Quisque non justo ut mi dictum fringilla."
-          </p>
+          </p><br></br>
           <h4>Bloom</h4>
         </div>
         <div className="testimonial">
           <div className="rating">
             <span>★★★★★</span>
           </div>
-          <h3>"Another Successful Experience"</h3>
+          <h3>"Another Successful Experience"</h3><br></br>
           <p class='news'>
             "Testimonial number three. Lorem ipsum dolor sit amet, consectetur
             adipiscing elit. Quisque non justo ut mi dictum fringilla."
-          </p>
+          </p><br></br>
           <h4>Extra</h4>
         </div>
         <div className="testimonial">
           <div className="rating">
             <span>★★★★★</span>
           </div>
-          <h3>"Speechless"</h3>
+          <h3>"Speechless"</h3><br></br>
           <p class='news'>
             "The fourth testimonial. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Quisque non justo ut mi dictum fringilla."
-          </p>
+            adipiscing elit. Quisque non justo ut mi dictum fringilla. non justo ut mi dictum fringilla."
+          </p><br></br>
           <h4>Monarch</h4>
         </div>
       </div>

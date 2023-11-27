@@ -1,3 +1,5 @@
+
+
 /* Image Gallery container */
 .image-gallery {
   background-color: #fff;
@@ -5,7 +7,6 @@
   margin-top: 0px;
   margin-right: 40px;
   margin-left: 100px;
-  
 }
 
 .image-gallery p {
@@ -20,19 +21,21 @@
 }
 
 /* Individual image container */
+.image img {
+  width: 100%; /* Use width instead of max-width */
+  height: auto;
+  display: block; /* Ensure images are block-level elements */
+  object-fit: cover;
+}
+
+/* Individual image container */
 .image {
-  width: calc(33.333% - 20px); /* Adjust as needed for layout with margin */
+  width: calc(33.333% - 20px);
   text-align: center;
-  
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
-  }
-
-/* Image styles */
-.image img {
-  max-width: 100%;
-  height: auto;
+  object-fit: cover;
 }
 
 /* Image info styles */
@@ -42,6 +45,7 @@
   padding: 10px;
   opacity: 0.8;
   text-align: center;
+  object-fit: cover;
 }
 .reserve-align1 {
   color: black;

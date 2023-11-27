@@ -1,12 +1,12 @@
 
 import './App.css';
 import Navbar from './Components/Navbar';
-import SecondPage from './Components/SecondPage';
-import Third from './Components/Third'
+import SecondPage from './Components/Highlight';
+import Third from './Components/Menu'
 import ImageGrid from './Components/ImageGrid';
 import Testimonials from './Components/Testimonials';
-import NewsEvents from './Components/NewsEvents';
-import ReservationContact from './Components/Reservation';
+import NewsEvents from './Components/Events';
+import ReservationContact from './Components/Contact';
 
 function App() {
   return (
