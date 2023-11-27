@@ -1,23 +1,23 @@
 
 import './App.css';
 import Navbar from './Components/Navbar';
-import SecondPage from './Components/Highlight';
-import Third from './Components/Menu'
+import Highlight from './Components/Highlight';
+import Menu from './Components/Menu'
 import ImageGrid from './Components/ImageGrid';
 import Testimonials from './Components/Testimonials';
-import NewsEvents from './Components/Events';
-import ReservationContact from './Components/Contact';
+import Events from './Components/Events';
+import Contact from './Components/Contact';
 
 function App() {
   return (
     <div className="App">
      <Navbar/>
-     <SecondPage/>
-     <Third/>
+     <Highlight/>
+     <Menu/>
      <ImageGrid/>
      <Testimonials/>
-     <NewsEvents/>
-     <ReservationContact/>
+     <Events/>
+     <Contact/>
     </div>
   );
 }
